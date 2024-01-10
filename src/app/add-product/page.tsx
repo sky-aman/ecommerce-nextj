@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation';
 import FormSubmitButton from '@/component/FormSubmitButton';
 import prisma from '@/lib/db/prisma';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '../api/auth/[...nextauth]/route';
+import { authOptions } from '../api/auth/[...nextauth]/authOptions';
 
 export const metadata: Metadata = {
   title: 'Add Product | We-commerce',
